@@ -1,0 +1,18 @@
+<groups xmlns="http://www.isdc.ro/wro">
+	<group name="application">
+		<js minimize="true">/application/scripts/main.js</js>
+		<js minimize="true">/application/scripts/router.js</js>
+		<js minimize="true">/application/scripts/factories/*.js</js>
+		<js minimize="true">/application/scripts/services/*.js</js>
+		<js minimize="true">/application/scripts/controllers/*.js</js>
+		<js minimize="true">/application/scripts/directives/*.js</js>
+		<js minimize="true">/application/views/**.js</js>
+		<js minimize="true">/application/scripts/run.js</js>
+	</group>
+	<group name="vendor">
+		<css minimize="true">/vendor/bootstrap/css/bootstrap.css</css>
+		<js minimize="true">/vendor/jquery/jquery.js</js>
+		<js minimize="true">/vendor/angular/angular.js</js>
+		<js minimize="true">/vendor/angular/route.js</js>
+	</group>
+</groups>       
